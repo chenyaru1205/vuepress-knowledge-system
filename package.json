@@ -1,0 +1,16 @@
+{
+  "name": "vuepress-knowledge-system",
+  "version": "1.0.0",
+  "description": "前端的知识体系文档",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "author": "lucia.chen",
+  "license": "ISC",
+  "devDependencies": {
+    "vuepress": "^1.9.10"
+  }
+}
