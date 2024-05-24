@@ -15,7 +15,7 @@ jobs:
       uses: actions/checkout@master
 
     - name: vuepress-deploy
-      uses: chenyaru1205/vuepress-knowledge-system@master
+      uses: chenyaru1205/vuepress-deploy@master
       env:
         ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
         TARGET_REPO: username/repo
