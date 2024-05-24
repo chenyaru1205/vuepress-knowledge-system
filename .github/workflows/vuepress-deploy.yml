@@ -48,7 +48,7 @@ jobs:
     # 部署到 GitHub Pages
     - name: Deploy to GitHub Pages
       # 此actions的官方文档 https://github.com/JamesIves/github-pages-deploy-action
-      uses: chenyaru1205/vuepress-knowledge-system@master
+      uses: JamesIves/github-pages-deploy-action@v4
       with:
         # 要部署的文件夹，必填
         FOLDER: vuepress-knowledge-system/.vuepress/dist
@@ -60,7 +60,7 @@ jobs:
         # TOKEN: ${{ secrets.ACCESS_TOKEN }}
         # # 部署到GitHub的不同仓库 <用户名>/<仓库名>
         # # 此选项必须配置了TOKEN才能正常执行
-
+        
         # REPOSITORY-NAME: leoleor/leo2
         # ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
         # TARGET_REPO: chenyaru1205/vuepress-knowledge-system
