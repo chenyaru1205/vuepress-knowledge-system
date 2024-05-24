@@ -1,4 +1,6 @@
 module.exports = {
+  base: '/vuepress-knowledge-system/',
+  lang: 'zh-CN',
   title: '前端知识体系',
   description: '前端知识体系文档',
   themeConfig: {
