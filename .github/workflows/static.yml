@@ -17,5 +17,5 @@ jobs:
         ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
         TARGET_REPO: chenyaru1205/vuepress-knowledge-system
         TARGET_BRANCH: master
-        BUILD_SCRIPT: yarn && yarn build
+        BUILD_SCRIPT: yarn && yarn docs:build
         BUILD_DIR: vuepress-knowledge-system/.vuepress/dist/
