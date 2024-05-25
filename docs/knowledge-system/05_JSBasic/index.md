@@ -1,8 +1,9 @@
+# JS
 ## 一、组成
-![浏览器历史](/images/knowledge-system/05/1.png)
+![Image](/vuepress-knowledge-system/images/knowledge-system/05/1.png)
 
 ## 二、BOM浏览器对象模型（window对象）
-![浏览器历史](/images/knowledge-system/05/2.png)
+![Image](/vuepress-knowledge-system/images/knowledge-system/05/2.png)
 
 遗留困惑点：
 1、moveTo、moveBy 同 resizeTo、resizeBy的区别
@@ -13,7 +14,7 @@ DOM将文档（XML/HTML文档）页面形象地映射成一个<span style="color
 
 <span style="color: red; font-weight: bold">注意：</span> DOM操作往往是<span style="color: red;">js开销最大的部分</span>，尽量<span style="color: red;">减少DOM操作</span>
 
-![浏览器历史](/images/knowledge-system/05/3.png)
+![Image](/vuepress-knowledge-system/images/knowledge-system/05/3.png)
 
 文档的任何东西都可以看成节点，如：文档节点，元素节点、属性节点、文本节点、注释节点，共有12种类型的节点。
 
@@ -43,17 +44,17 @@ HTMLxxxxx 都是在Document的基础上做HTML拓展
 （4）NodeList对象，表示一个有顺序的节点列表，直接通过索引号获取指定位置的节点，或者通过item(索引号)。节点列表是实时更新的。
 
 ### 1、DOM发展史
-![浏览器历史](/images/knowledge-system/05/4.png)
+![Image](/vuepress-knowledge-system/images/knowledge-system/05/4.png)
 
 ### 2、文档类型发展史
-![浏览器历史](/images/knowledge-system/05/5.png)
+![Image](/vuepress-knowledge-system/images/knowledge-system/05/5.png)
 
 ### 3、渲染过程
 从浏览器输入url，到页面呈现，这个加载过程就是：HTML标签解析并构建成DOM节点树，样式解析生成CSSOM树，合并DOM节点树和CSSOM树生成render渲染树，布局与绘制 
 
 **具体如何解析呢？** 主要依靠 <span style="color: red;">渲染引擎</span>，把CSS、HTML、图片，渲染到浏览器显示。
 
-![浏览器历史](/images/knowledge-system/05/6.png)
+![Image](/vuepress-knowledge-system/images/knowledge-system/05/6.png)
 
 **什么是domReady？** 就是页面上的HTML标签全部转为DOM节点时，就称为domReady。
 
@@ -67,5 +68,5 @@ w3c新增了DOMContentLoaded事件，就是在domReady后就开始解析JS。
 3、回流reFlow与重绘rePaint
 
 ### 4、DOM知识体系
-![浏览器历史](/images/knowledge-system/05/7.png)
+![Image](/vuepress-knowledge-system/images/knowledge-system/05/7.png)
 注意点
