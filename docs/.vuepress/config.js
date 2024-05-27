@@ -30,7 +30,8 @@ module.exports = {
           { text: '9_打包工具', link: '/knowledge-system/09_pack/index.md'},
           { text: '10_node服务端', link: '/knowledge-system/10_node/index.md'},
           { text: '11_多端开发', link: '/knowledge-system/11_multi_terminal/index.md'},
-          { text: '12_数据结构', link: '/knowledge-system/12_data_structure/index.md'}
+          { text: '12_数据结构', link: '/knowledge-system/12_data_structure/index.md'},
+          { text: '13_git知识', link: '/knowledge-system/13_git/index.md'}
         ]
       },
       {
@@ -105,6 +106,11 @@ module.exports = {
       }],
       '/knowledge-system/12_data_structure/': [{
         title: '数据结构',
+        collapsable: true,
+        children: ['']
+      }],
+      '/knowledge-system/13_git/': [{
+        title: 'git',
         collapsable: true,
         children: ['']
       }]

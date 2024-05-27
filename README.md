@@ -1,2 +1,2 @@
 # vuepress-knowledge-system
-前端知识体系23
+前端知识体系
