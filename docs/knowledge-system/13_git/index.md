@@ -312,10 +312,15 @@ $ git stash pop
 ## 二、特定场景
 ### 1、新项目git到远程仓库
 （1）进入gitLab官网（https://github.com/）新建一个存储库，名称同项目一样
+
 （2）进入本地项目，打开cmd，输入git init，初始化git
+
 （3）输入`git remote add [remote] [url]`，设置远程仓库地址
+
 （4）输入`git pull [remote] [branch]`，先拉取远程分支到本地
+
 （5）输入`git branch --set-upstream-to=[remote]/[remote-branch] [branch]`，本地分支remote关联远程分支remote-branch
+
 （6）提交代码
 ```bash
 git add .
@@ -327,6 +332,15 @@ git push --set-upstream origin/master master
 ```
 
 ### 2、回退代码
+（1）查看提交历史，获取提交历史<commit_id>
+`git log origin/branch_name`
+
+（2）回退到指定版本
+`git reset --hard <commit>`
+
+（3）强制推送到远程
+`git push -f origin branch_name`
+
 
 ## 三、git思想和工作原理
 ### 1、底层思想
